@@ -1,4 +1,5 @@
 import express from 'express';
+import homeRoutes from './src/routes/homeRoutes';
 
 class App {
   constructor() { // Sempre que a classe for instanciada o contrutor será executado.
@@ -12,8 +13,8 @@ class App {
     this.app.use(express.json()); // Permite o tratamento de dados json.
   }
 
-  routes() {
-
+  routes() { // Define as rotas utilizadas
+    this.app.use('/', homeRoutes);
   }
 }
 
