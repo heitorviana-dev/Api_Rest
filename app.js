@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable max-len */
 import express from 'express';
 import homeRoutes from './src/routes/homeRoutes';
