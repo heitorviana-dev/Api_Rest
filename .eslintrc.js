@@ -18,5 +18,8 @@ module.exports = {
     'no-console': 'off',
     'class-methods-use-this': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'max-len': 'off',
+    'import/first': 'off',
+    'import/prefer-default-export': 'off',
   },
 };
